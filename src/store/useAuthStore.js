@@ -5,7 +5,7 @@ import { io } from "socket.io-client";
 
 const RENDER_BACKEND_URL = "https://mern-chat-app-new-backend.onrender.com";
 
-const BASE_URL = "RENDER_BACKEND_URL";
+const BASE_URL = RENDER_BACKEND_URL;
 
 export const useAuthStore = create((set, get) => ({
   authUser: null,
